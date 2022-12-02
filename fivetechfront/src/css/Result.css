@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+
+.search {
+    margin: 3%;
+    width: 35%;
+    display: flex;
+}
+
+.searchContainer {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.sidesearch h3{
+    width: 50%;
+    margin-right: 10em;
+    color: grey;
+    padding-bottom: 2em;
+    border-bottom: 2px solid gray;
+}
+
+.sidesearch {
+    display: flex;
+}
+
+#nbProducts {
+    color: #c79b65;
+}
+
+.inputSearch input {
+    padding: 1em 2em;
+    margin-right: 1em;
+}
+
+.inputSearch button {
+    padding: 1em;
+    background: #c79b65;
+    border: none;
+
+}
+
+.BoxResult {
+    width: 100%;
+}
+
+.Container {
+    display: flex;
+    font-family: 'Hind Madurai', sans-serif;
+    margin: 20px;
+}
+
+.resultContainer {
+    width: 1000px;
+}
+
+.resultBox {
+    display: flex;
+    background-color: white;
+    margin-top: 2em;
+    padding: 1em;
+    width: 800px;
+    box-shadow: 0 1px 4px 0 rgb(190, 190, 190);
+    cursor: pointer;
+
+}
+
+#article {
+    height: 150px;
+    width: 150px;
+}
+
+#euros {
+    height: 25px;
+    width: 25px;
+    margin-top: 37px;
+    margin-left: 5px;
+    color: red;
+}
+
+.price {
+    display: flex;
+    font-weight: bold;
+}
+
+#buy {
+    padding: 10px;
+    width: 100px;
+    background-color: rgb(31, 168, 54);
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+#buy:hover {
+    background-color: green;
+}
+
+.resultbuttons {
+    margin-top: 70px;
+    margin-right: 0px;
+    width: 300px;
+}
+
+#productsName {
+    margin-left: 25px;
+    font-weight: 300;
+}
+
+#descrip1 {
+    font-size: 0.9em;
+    margin-left: 25px;
+    font-weight: 100;
+}
+
+#prix1 {
+    color: red;
+    font-size: 2em;
+    margin-left: 20px;
+}
+
+#ok {
+    background-color: rgb(92, 92, 245);
+    color: white;
+    padding: 15.9px;
+    margin-left: -14px;
+    border: none;
+    cursor: pointer;
+}
+
+#ok:hover {
+    background-color: rgb(0, 38, 255)
+}

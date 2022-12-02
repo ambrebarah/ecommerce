@@ -1,0 +1,174 @@
+.profil {
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    border: 1px solid grey;
+    margin-top: 3em;
+}
+
+.titre {
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    background: #464AA6;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 40px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#Firstname {
+    margin: 10px;
+}
+
+#Déconnexion {
+    background: #c79b65;
+    width: 50%;
+    padding: 10px 40px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.infoTitle {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.infoTitle img {
+    height: 20px;
+    width: 20px;
+}
+
+.Informations h2{
+    text-transform: uppercase;
+    margin-left: 25%;
+}
+
+.Informations h3 {
+    border: 1px solid grey;
+    margin: 2%;
+    padding: 15px 40px;
+}
+
+
+
+
+.Commandes {
+    margin-top: 3em;
+    margin-left: 5em;
+    width: 70%;
+    border: 1px solid grey;
+}
+
+.Categories {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 4em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+}
+
+.cartes {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-bottom: 1px solid grey;
+    max-width: 100%;
+    max-height: 20%;
+
+}
+
+#articleImg {
+    max-width: 150px;
+    max-height: 150px;
+    height: 150px;
+    width: 150px;
+    padding: 0;
+}
+
+.prixUnit {
+    margin-left: -80px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.quantité {
+    margin-top: 50px;
+}
+
+.profilTotal {
+    margin-right: 60px;
+    margin-top: 50px;
+}
+
+#euros {
+    height: 10px;
+    width: 10px;
+    margin-bottom: 130px;
+}
+
+.sousTotal {
+    display: flex;
+}
+
+.sousTotal h3 {
+    margin-left: 70px;
+}
+
+
+.fraisPort {
+    display: flex;
+}
+
+.carteSousTotal {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid grey;
+}
+
+.textSousTotal h2{
+    margin-right: 170px;
+}
+
+.textSousTotal {
+    padding-right: 90px;
+}
+
+.Total {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 90px;
+}
+
+.Total h2 {
+    margin-right: 170px;
+}

@@ -1,0 +1,216 @@
+.firstContainer {
+    background-color: #464AA6;
+    color: white; 
+    display: flex;
+    justify-content: space-between;
+}
+
+#truck {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.livraison {
+    display: flex;
+}
+
+.livraisonrapide {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.horairelivraison {
+    padding: 0;
+    margin-top: 0;
+    font-size: 17px;
+    color: #c79b65;
+}
+
+.location {
+    display: flex;
+    font-size: 15px;
+    margin-left: 170px;
+}
+
+#locationicon {
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    border-radius: 50%;
+    color: #464AA6;
+    background-color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.numberstore {
+    color: #c79b65;
+    margin-top: 0;
+
+}
+
+.country {
+    margin-bottom: 0;
+}
+
+.retrait {
+    display: flex;
+    
+}
+
+.retraitmag {
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+#shoplogo {
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.free {
+    margin-top: 0;
+    font-size: 15px;
+    color: #c79b65;
+}
+
+.securite {
+    display: flex;
+    margin-right: 200px;
+}
+
+#lock {
+    height: 36px;
+    width: 36px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.site {
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+.securise {
+    margin-top: 0;
+    font-size: 15px;
+    color: #c79b65;
+}
+
+.reseaux {
+    display: flex;
+    margin-left: 15%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.secondContainer h3 {
+    margin-right: 30px;
+}
+
+.secondContainer img {
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+}
+
+.thirdContainer {
+    background-color: #464AA6;
+    color: white;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sections h5 {
+    margin: 12px;
+    font-size: 12px;
+}
+
+.categories {
+    margin-left: 180px;
+}
+
+.categories h3 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.information h3 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.equipe h3 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.paiement h3 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.paiement {
+    margin-right: 200px;
+}
+
+#credit {
+    height: 80px;
+    width: 150px;
+    margin-right: 20px;
+}
+
+#paypal {
+    height: 80px;
+    width: 80px;
+}
+
+.troisfois {
+    display: flex;
+}
+
+.troisfois h1 {
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.sansfrais {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.sansfrais h5 {
+    margin: 0;
+}
+
+.logopaiement {
+    margin-bottom: 0px;
+}
+
+.cheque {
+    display: flex;
+}
+
+.cheque h5 {
+    margin: 0;
+}
+
+#logocheque {
+    height: 80px;
+    width: 80px;
+}
+
+.textcheque {
+    margin-left: 10px;
+    margin-top: 10px;
+}

@@ -1,0 +1,163 @@
+#page-title {
+    text-align: center;
+    color: rgb(141, 141, 141);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.result-page {
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.results {
+    width: 65%;
+}
+.results-header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: white;
+    color: rgb(150, 150, 150);
+}
+.results-header h3 {
+    width: 18%;
+    text-align: center;
+}
+#product-desc {
+    width: 46%;
+    margin: 20px;
+}
+.product-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid rgb(212, 183, 183);
+}
+.product-desc-div {
+    width: 46%;
+    display: flex;
+    /* justify-content: space-between; */
+    /* margin-left: -6%; */
+}
+.product-image {
+    width: 200px;
+    height: 100%;
+    margin-right: 20px;
+    box-shadow: 0 1px 4px 0 rgb(194, 194, 194);
+    cursor: pointer;
+}
+
+.product-image:hover {
+    transform: scale(1.020);
+
+}
+
+.product-quantity-div,
+.product-price-div,
+.product-delete {
+    width: 18%;
+    text-align: center;
+    margin-top: 5.8%;
+
+}
+.product-quantity-div {
+    display: flex;
+    justify-content: center;
+}
+.product-quantity {
+    margin-right: 10px;
+}
+.product-quantity-div button {
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #F2F2F0;
+}
+
+.product-quantity-div button:hover {
+    background-color: #F2F2F0;
+    transform: scale(1.2);
+}
+
+.product-delete {
+    padding-top: 15px;
+}
+
+.total {
+    width: 25%;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    height: 325px;
+    color: rgb(143, 143, 143);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+#total-amount {
+    color: red;
+    margin-left: 10px;
+    font-weight: 100;
+}
+.total-top p,
+.total-bottom p {
+    color: rgb(165, 165, 165);
+}
+.total-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.445);
+    padding-top: 30px;
+    width: 90%;
+    margin: auto;
+}
+#place-order {
+    background-color: #2bb04a;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+#place-order:hover {
+    background-color: #58c471;
+}
+
+/* ============== EMPTY CART ============== */
+#empty-cart {
+    text-align: center;
+    margin: 100px auto 50px auto;
+}
+#empty-cart-image {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 30px;
+}
+
+#totalAll {
+    display: flex;
+    justify-content: center;
+}
+
+.product-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 15%;
+}
+
+.deletItem {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color:#F2F2F0;
+    font-size: 14px;
+}
+
+.deletItem:hover {
+    background-color:#F2F2F0;
+}

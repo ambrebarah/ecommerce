@@ -1,0 +1,67 @@
+## PLANNING
+
+```Team Backend
+  Philippe LOCATELLI
+  Ambre BARAH
+```
+
+```Team Frontend
+  Adlan ISAEV
+  Sylvain HUTT
+```
+
+#### Semaine du 11 au 17 juillet
+
+- CRUD Utilisateur - Philippe LOCATELLI
+- CRUD Admin - Ambre BARAH
+- Maquette - Sylvain HUTT
+- Création nom de site + Logo - Ambre BARAH
+- HomePage - Adlan ISAEV
+- Login Register - Adlan ISAEV
+
+#### Semaine du 18 au 24 juillet
+
+- CRUD Utilisateur - Philippe LOCATELLI
+- CRUD Admin - Ambre BARAH
+- Base de donnée - Ambre BARAH
+- CRUD Articles Admin
+
+
+#### Semaine du 25 au 31 juillet
+
+- CRUD Articles Admin
+- Parametrage Articles Admin
+- Accès Articles User
+- Panier User (Ajouter/supprimer quantité)
+- Trie Articles User
+- Visuel Panier User (depuis n'importe quel page du site)
+
+
+#### Semaine du 01 au 07 Août
+
+- Gestion Stock Articles Admin
+- Statut Articles Admin
+- Gestion Status Articles Admin
+- Accès détails Articles User
+- Avis User
+
+
+#### Semaine du 08 au 14 août
+
+- Paiement Securisé User
+- Gestion Frais de Port Admin
+- Livraison Admin
+- Livraison User
+- Gestion Catégorie Admin
+- Commande User Inivté
+- Adresses Multiples User
+
+
+#### Semaine du 15 au 21 août
+
+-
+-
+-
+-
+-
+-

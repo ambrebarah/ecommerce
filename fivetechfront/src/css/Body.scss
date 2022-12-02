@@ -1,0 +1,76 @@
+@import "react-slideshow-image/dist/styles.css";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+
+.bodyContainer {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Titillium Web', sans-serif;
+
+  .slideCont {
+    padding: 10px;
+  }
+
+
+  .each-slide>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    height: 350px;
+  }
+
+  .each-slide span {
+    padding: 20px;
+    font-size: 20px;
+    background: #efefef;
+    text-align: center;
+  }
+
+  .productNav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 5vh;
+
+    .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #fff;
+      margin: 10px;
+      width: 20%;
+      box-shadow: 0 2px 6px 0 rgb(209, 209, 209);
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.02);
+      }
+    }
+  }
+
+  h1 {
+    text-align: center;
+    color: #828282;
+  }
+
+  .infoBlock {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+    .info {
+      display: flex;
+      align-items: center;
+      margin: 10px;
+      background-color: #fff;
+      padding: 5px;
+
+
+      .infoIcon {
+        margin: 5px;
+      }
+    }
+  }
+}

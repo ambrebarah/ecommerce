@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+.inCont {
+    margin: 10vh;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.inWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    width: 450px;
+}
+
+
+.h1Cont {
+    background-color: #464AA6;
+    color: white;
+    width: 490px;
+    margin-top: -20px;
+}
+
+.inCont h1 {
+    text-align: center;
+}
+
+
+.inCont a {
+    text-decoration: none;
+    margin: 20px;
+}
+
+.inCont a:hover {
+    color: #3b3d69;
+}
+
+.inCont form {
+    display: flex;
+    flex-direction: column;
+}
+
+.inCont input {
+    margin: 10px;
+    padding: 10px;
+    width: 230px;
+}
+
+.inCont button {
+    padding: 12px;
+    border: none;
+    outline: none;
+    background-color: rgb(223, 180, 101);
+    cursor: pointer;
+    width: 200px;
+    color: white;
+    font-size: 0.9em;
+}
+
+button:hover {
+    background-color: rgb(197, 157, 82);
+}
+
+.authFooter {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.upCont {
+    margin: 10vh;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.upWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    width: 450px;
+}
+
+.inCont h2 {
+    text-align: center;
+}
+
+.create {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 14%;
+}
+
+.inCont select {
+    width: 255px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.conn {
+    margin-left: 16%;
+}
+
