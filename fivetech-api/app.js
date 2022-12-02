@@ -8,7 +8,7 @@ const orderRoutes = require('./routes/order');
 
 mongoose
     .connect(
-        "mongodb+srv://philippe:zeubi@cluster0.wfjpa.mongodb.net/fivetech?retryWrites=true&w=majority",
+        "mongodb+srv://user:password@cluster0.wfjpa.mongodb.net/fivetech?retryWrites=true&w=majority",
         { useNewUrlParser: true, useUnifiedTopology: true }
     )
     .then(() => console.log("Connection to MongoDB successful !"))
